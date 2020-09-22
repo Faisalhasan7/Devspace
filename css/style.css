@@ -1,0 +1,824 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 1. Header-Start */
+.navbar {
+  background: #003049;
+  padding: 1.5rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  transition: all linear 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 13px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  padding-right: 30px;
+  padding-left: 30px;
+  color: #eae2b7;
+  transition: all linear 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: #d5262c;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:focus {
+  color: #fcbf49;
+}
+
+.navbar-two {
+  background: #003049;
+  box-shadow: 0 8px 6px -6px black;
+  padding: 0.8rem 2rem;
+}
+
+.navbar-nav * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  padding: 0;
+}
+
+.navbar-nav a {
+  display: block;
+  position: relative;
+}
+
+.navbar-nav a:before,
+.navbar-nav a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: "";
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.navbar-nav a:before {
+  left: 0;
+  top: 0;
+  border-left: 3px solid #d5262c;
+  border-top: 3px solid #d5262c;
+  -webkit-transform: translate(100%, 50%);
+  transform: translate(100%, 50%);
+}
+
+.navbar-nav a:after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #d5262c;
+  border-bottom: 3px solid #d5262c;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+
+.navbar-nav a:hover:before,
+.navbar-nav .active a:before,
+.navbar-nav a:hover:after,
+.navbar-nav .active a:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+.navbar-light .navbar-toggler {
+  color: #d5262c;
+  font-size: 20px;
+  border-color: transparent !important;
+}
+
+button:focus {
+  outline: none;
+  outline: none;
+}
+
+/* 1. Header-End */
+
+/* 2. Banner-Start */
+.Concept-SubTitle,
+.Concept-Title,
+.tp-caption.Concept-SubTitle,
+.tp-caption.Concept-Title {
+  font-family: "Rubik";
+  font-weight: 700;
+}
+
+#slide-672-layer-3>a,
+#slide-674-layer-3>a,
+#slide-675-layer-3>a,
+#slide-676-layer-3>a {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  font-style: normal;
+  padding: 15px 35px;
+  background: #d62828;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+#slide-672-layer-3>a:hover {
+  transition: ease-in-out 0.3s;
+  background: #ffffff;
+  color: #d5262c;
+}
+
+#slide-674-layer-3>a:hover {
+  transition: ease-in-out 0.3s;
+  background: #ffffff;
+  color: #d5262c;
+}
+
+#slide-675-layer-3>a:hover {
+  transition: ease-in-out 0.3s;
+  background: #ffffff;
+  color: #d5262c;
+}
+
+#slide-676-layer-3>a:hover {
+  transition: ease-in-out 0.3s;
+  background: #ffffff;
+  color: #d5262c;
+}
+
+.persephone .tp-bullet {
+  width: 25px;
+  height: 3px;
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  box-sizing: content-box;
+  border-radius: 2px;
+  transition: all linear 0.3;
+}
+
+.persephone .tp-bullet.selected,
+.persephone .tp-bullet:hover {
+  background: #d5262c;
+  border: 1px solid #d5262c;
+  border-radius: 2px;
+}
+
+/* 2. Banner-End */
+
+/* 3. About-Start */
+.about_heading h1 {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 50px;
+  color: #003049;
+  text-transform: uppercase;
+  padding-top: 135px;
+  margin-bottom: 70px;
+}
+
+.box_title_icon i {
+  color: #d62828;
+  font-size: 46px;
+  padding-right: 20px;
+  font-weight: 300;
+}
+
+.box_title_icon h6 {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.box_parahraph p {
+  font-family: "Karla";
+  font-weight: 300;
+  font-size: 15px;
+  color: #9999b1;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+
+.tick_list ul li span {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 15px;
+  color: #737673;
+  line-height: 25px;
+}
+
+.tick_list ul li i {
+  font-size: 8px;
+  padding-right: 10px;
+}
+
+/* 3. About-End */
+
+/* 4. Services-Start */
+.services-images {
+  background: url(../images/services/bongkarn.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 300px;
+}
+
+.services-heading h1 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 32px;
+  color: #ffffff;
+  text-transform: capitalize;
+  padding: 85px 0px;
+  margin-bottom: 0;
+}
+
+#services-heading-background {
+  background: #d5262c;
+}
+
+#secvices-contents {
+  background: url(../images/services/main-services.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 130px;
+  padding-bottom: 140px;
+  position: relative;
+}
+
+.services-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: #111111;
+  opacity: 65%;
+}
+
+.heading-what-we-do h2 {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+
+.services-box {
+  margin-bottom: 45px;
+}
+
+.services-icon span {
+  font-size: 42px;
+  color: #d62828;
+  float: left;
+  padding-right: 15px;
+}
+
+.services-box-items {
+  margin-left: 70px;
+}
+
+.services-box h4 {
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
+  padding-top: 15px;
+}
+
+.services-box p {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 15px;
+  color: #b2b2b2;
+}
+
+.services-button {
+  margin-top: 15px;
+}
+
+.services-button a {
+  background: #d62828;
+  padding: 15px 35px;
+  border-radius: 25px;
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+  transition: all linear 0.3s;
+}
+
+.services-button a:hover {
+  background: #ffffff;
+  color: #d5262c;
+}
+
+/* 4. Services-End */
+
+/* 5. Showcase-Start */
+#showcase {
+  padding-top: 150px;
+  margin-bottom: 120px;
+}
+
+.showcase-heading h1 {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 50px;
+  color: #003049;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.showcase-heading p {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 15px;
+  color: #b2b2b2;
+  padding-bottom: 70px;
+}
+
+.slides-image {
+  position: relative;
+}
+
+.slides-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all linear 0.3s;
+}
+
+.slides-overlay:hover {
+  background: #ffffff;
+  opacity: 85%;
+  transition: all linear 0.3s;
+}
+
+.slides-overlay::before {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 130%;
+  border: 2px solid #d5262c;
+  top: 5%;
+  left: 4%;
+  opacity: 0;
+}
+
+.slides-overlay:hover::before {
+  opacity: 1;
+}
+
+.slides-overlay i {
+  position: relative;
+  top: 35%;
+  left: 45%;
+  color: #d5262c;
+  font-weight: 300;
+  font-size: 36px;
+  opacity: 0;
+  transition: all linear 0.3s;
+}
+
+.slides-overlay:hover i {
+  opacity: 1;
+}
+
+.slides-text {
+  padding: 20px 10px;
+  position: relative;
+  z-index: 3;
+}
+
+.slides-text a {
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 16px;
+  color: #222222;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all linear 0.3s;
+}
+
+.slides-text a:hover {
+  color: #d5262c;
+}
+
+.slides-text p {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 13px;
+  color: #b2b2b2;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.slides-overlay a {
+  text-decoration: none;
+}
+
+/* 5. Showcase-End */
+
+/* 6. Feedback-Start */
+#feedback {
+  margin-bottom: 120px;
+}
+
+.feedback-box {
+  margin-top: 75px;
+}
+
+.feedback-box i {
+  font-size: 50px;
+  color: #d5262c;
+}
+
+.feedback-box p {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #222222;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.feedback-client-info h3 {
+  margin-top: 15px;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 20px;
+  color: #222222;
+}
+
+.feedback-client-info a {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 15px;
+  color: #003049;
+  text-decoration: none;
+  transition: all linear 0.3s;
+  padding-bottom: 0;
+}
+
+.feedback-client-info a:hover {
+  color: #737673;
+}
+
+/* Swiper */
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #d5262c;
+}
+
+.swiper-container-horizontal>.swiper-pagination-progressbar,
+.swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+  width: 100%;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: "prev";
+  color: #d5262c;
+}
+
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: "next";
+  color: #d5262c;
+}
+
+/* 6. Feedback-End */
+
+/* 7. Latest-News-Start */
+#blog {
+  padding-top: 150px;
+  background: #f9f9f9;
+  padding-bottom: 150px;
+}
+
+.blog-heading h1 {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 50px;
+  color: #003049;
+  text-transform: uppercase;
+}
+
+.blog-heading p {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 15px;
+  color: #b2b2b2;
+  padding-bottom: 70px;
+}
+
+.blog-stamp span {
+  font-family: "Karla";
+  font-weight: 300;
+  font-size: 14px;
+  color: #737673;
+  text-decoration: none;
+  transition: all linear 0.3s;
+}
+
+.blog-stamp a {
+  text-decoration: none;
+}
+
+.blog-stamp span a:hover {
+  color: #d5262c;
+}
+
+.blog-items h4 {
+  padding-top: 20px;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 20px;
+  color: #003049;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.blog-items p {
+  font-family: "Karla";
+  font-weight: 300;
+  font-size: 15px;
+  color: #737673;
+  line-height: 24px;
+}
+
+.box-post a {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 15px;
+  color: #737673;
+  text-decoration: none;
+  transition: all linear 0.3s;
+}
+
+.box-post a:hover {
+  color: #003049;
+}
+
+/* 7. Latest-News-End */
+#contact-card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cc h3 {
+  float: left;
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 20px;
+  color: #003049;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.cc a {
+  float: right;
+  color: rgb(255, 255, 255);
+  background: #d5262c;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 12px 45px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  border-radius: 24px;
+  transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  text-decoration: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2.5px;
+}
+
+.cc a:hover {
+  color: #d5262c;
+  background: #ffffff;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+/* 8. Footer-Start */
+#footer {
+  background: #003049;
+  padding-top: 100px;
+  padding-bottom: 76px;
+}
+
+.footer-heading h2 {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.footer-heading address {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.footer-heading address a {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 14px;
+  color: #dd5522;
+  text-decoration: none;
+}
+
+.footer-box h3 {
+  padding-top: 5px;
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  line-height: 37px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  transition: all linear 0.3s;
+}
+
+.social-icons a:hover {
+  color: #003049;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+#footer>div>div>div:nth-child(2)>div>ul>li {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.blog-post h4 a {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 14px;
+  color: #bcbcbc;
+  text-decoration: none;
+  transition: all linear 0.3s;
+}
+
+.blog-post h4 a:hover {
+  color: #d5262c;
+}
+
+.blog-post a {
+  font-family: "Karla";
+  font-weight: 300;
+  font-size: 13px;
+  color: #acacac;
+  text-decoration: none;
+  transition: all linear 0.3s;
+}
+
+.blog-post a:hover {
+  color: #d5262c;
+}
+
+#footer>div>div>div:nth-child(2)>div>ul>li:nth-child(3) {
+  margin: 0;
+}
+
+#footer>div>div>div:nth-child(3)>div>ul>li {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.newsletter h4 {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 14px;
+  color: #bcbcbc;
+}
+
+.footer-heading form.subscribe input[type="text"] {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  outline: none;
+  background: #fff;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  width: 100%;
+  color: #999999;
+  font-weight: 400;
+  margin: 0;
+}
+
+.footer-heading form.subscribe input[type="submit"] {
+  font-family: "Karla", sans-serif;
+  float: right;
+  margin-top: -45px;
+  color: #fff;
+  font-size: 13px;
+  padding: 12px 30px 12px;
+  background: #d5262c;
+  font-weight: 400;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  transition: all 0s ease-in-out;
+  -moz-transition: all 0s ease-in-out;
+  -webkit-transition: all 0s ease-in-out;
+  -o-transition: all 0s ease-in-out;
+  outline: none;
+  border: 1px solid transparent;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.footer-heading form.subscribe input[type="submit"]:hover {
+  background: #fff;
+  color: #0080ff;
+}
+
+#copyright p.copyright-line {
+  font-family: 'Karla';
+  font-weight: 300;
+  text-align: center;
+  padding: 30px 0;
+  color: #757575;
+  background: #1e1e1e;
+  margin-bottom: 0;
+}
+
+#copyright p.copyright-line a {
+  color: #d5262c;
+  text-decoration: none;
+  transition: all linear 0.3s;
+}
+
+#copyright p.copyright-line a:hover {
+  color: #d5262c;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* 8. Footer-End */

@@ -1,0 +1,219 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 13px;
+    }
+
+    .navbar {
+        padding: 0.5rem 0.5rem;
+    }
+
+    .zeus.tparrows {
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .zeus.tparrows:before {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .persephone .tp-bullet {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+    }
+
+
+    .about_heading h1 {
+        font-size: 30px;
+        padding-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .box_title_icon h6 {
+        font-size: 24px;
+    }
+
+    .box_title_icon i {
+        font-size: 35px;
+    }
+
+    .tick_list ul li span {
+        font-size: 14px;
+    }
+
+    .services-images {
+        padding-top: 150px;
+    }
+
+    .services-heading h1 {
+        font-size: 26px;
+        padding: 30px 0px;
+    }
+
+    #secvices-contents {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .heading-what-we-do h2 {
+        font-size: 30px;
+    }
+
+    .services-box h4 {
+        font-size: 26px;
+    }
+
+    #showcase {
+        padding-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .showcase-heading h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .feedback-box p {
+        font-size: 14px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 75%;
+    }
+
+    #blog {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .blog-heading h1 {
+        font-size: 30px;
+    }
+
+    #footer {
+        padding-top: 80px;
+        padding-bottom: 76px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .about_heading h1 {
+        font-size: 36px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .box_title_icon i {
+        font-size: 36px;
+    }
+
+    .box_title_icon h6 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .services-images {
+        padding-top: 185px;
+    }
+
+    .services-heading h1 {
+        font-size: 26px;
+        padding: 50px 0px;
+    }
+
+    #secvices-contents {
+        padding-top: 75px;
+        padding-bottom: 85px;
+    }
+
+    .heading-what-we-do h2 {
+        font-size: 36px;
+        padding-bottom: 40px;
+    }
+
+    .services-icon span {
+        font-size: 36px;
+        padding-right: 5px;
+    }
+
+    .services-box h4 {
+        font-size: 26px;
+        padding-top: 10px;
+    }
+
+    .services-box p {
+        font-size: 14px;
+    }
+
+    #showcase {
+        padding-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .showcase-heading h1 {
+        font-size: 36px;
+        padding-bottom: 10px;
+    }
+
+    .showcase-heading p {
+        font-size: 14px;
+        padding-bottom: 40px;
+        margin: 0px;
+    }
+
+    #feedback {
+        margin-bottom: 75px;
+    }
+
+    .feedback-box p {
+        font-size: 15px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 75%;
+    }
+
+    #blog {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .blog-heading h1 {
+        font-size: 36px;
+    }
+
+    .cc h3 {
+        font-weight: 700;
+        font-size: 18px;
+        padding-top: 13px;
+    }
+
+    .cc a {
+        letter-spacing: 1.5px;
+    }
+
+    #footer {
+        padding-top: 70px;
+        padding-bottom: 66px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    ...
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    ...
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    ...
+}
